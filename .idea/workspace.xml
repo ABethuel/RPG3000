@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="RPG3000:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04237751-8fb2-4f8d-8ceb-65d1bc530f92" name="Changes" comment="Consumable interface + first tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Game$Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Healer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Healer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Hunter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Hunter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Mage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Mage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/SpellCaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/SpellCaster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Warrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Warrior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/ChoiceTeamController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/ChoiceTeamController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/ChoiceTeamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/ChoiceTeamController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/MainApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/MainApplication.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="27GBmPGIQGOkzuaiBBXZ2QT68lR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/isep/systems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../test/RICOCHETS-ROBOTS" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\daniela\Documents\A1\Algo et prog\TP-JAVA-ISEP\RPG3000\src\main\java\com\isep\entities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adrie\OneDrive - ISEP\Cours\A1\Algorithmique et programmation\TP-JAVA-ISEP\RPG3000\assets" />
+      <recent name="C:\Users\adrie\OneDrive - ISEP\Cours\A1\Algorithmique et programmation\TP-JAVA-ISEP\RPG3000\src\main\resources\assets\" />
+      <recent name="C:\Users\adrie\OneDrive - ISEP\Cours\A1\Algorithmique et programmation\TP-JAVA-ISEP\RPG3000\src\main\resources" />
+      <recent name="C:\Users\adrie\OneDrive - ISEP\Cours\A1\Algorithmique et programmation\TP-JAVA-ISEP\RPG3000\src\main\resources\assets\images" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.isep.systems" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainApplication">
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.isep.systems.MainApplication" />
+      <module name="RPG3000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.isep.systems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeroTest.testIsHeroDying" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPG3000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.isep.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.isep.entities" />
+      <option name="MAIN_CLASS_NAME" value="com.isep.entities.HeroTest" />
+      <option name="METHOD_NAME" value="testIsHeroDying" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConsumable.testUseLembas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPG3000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.isep.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.isep.entities" />
+      <option name="MAIN_CLASS_NAME" value="com.isep.entities.TestConsumable" />
+      <option name="METHOD_NAME" value="testUseLembas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConsumable.testUsePotion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPG3000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.isep.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.isep.entities" />
+      <option name="MAIN_CLASS_NAME" value="com.isep.entities.TestConsumable" />
+      <option name="METHOD_NAME" value="testUsePotion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpellCaster.testHealerCanHeal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPG3000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.isep.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.isep.entities" />
+      <option name="MAIN_CLASS_NAME" value="com.isep.entities.TestSpellCaster" />
+      <option name="METHOD_NAME" value="testHealerCanHeal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApplication" />
+        <item itemvalue="JUnit.HeroTest.testIsHeroDying" />
+        <item itemvalue="JUnit.TestSpellCaster.testHealerCanHeal" />
+        <item itemvalue="JUnit.TestConsumable.testUseLembas" />
+        <item itemvalue="JUnit.TestConsumable.testUsePotion" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04237751-8fb2-4f8d-8ceb-65d1bc530f92" name="Changes" comment="" />
+      <created>1648936708768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648936708768</updated>
+      <workItem from="1648936711859" duration="305000" />
+      <workItem from="1648941519011" duration="12599000" />
+      <workItem from="1649071330787" duration="1573000" />
+      <workItem from="1649150448356" duration="3905000" />
+      <workItem from="1649543658759" duration="588000" />
+      <workItem from="1649583271394" duration="1369000" />
+      <workItem from="1649603313169" duration="1743000" />
+      <workItem from="1650143263792" duration="2339000" />
+      <workItem from="1650148016671" duration="5513000" />
+      <workItem from="1650611057319" duration="8767000" />
+      <workItem from="1650802199271" duration="14195000" />
+      <workItem from="1650910504469" duration="13114000" />
+      <workItem from="1650992844621" duration="26218000" />
+      <workItem from="1651169711880" duration="12351000" />
+      <workItem from="1651186151698" duration="1031000" />
+      <workItem from="1651475650797" duration="1662000" />
+      <workItem from="1651492576887" duration="1628000" />
+      <workItem from="1651581323700" duration="2320000" />
+      <workItem from="1651656338653" duration="6842000" />
+      <workItem from="1653033688981" duration="146000" />
+      <workItem from="1653034187848" duration="5923000" />
+      <workItem from="1653295601595" duration="451000" />
+      <workItem from="1653303041968" duration="724000" />
+      <workItem from="1653305937693" duration="137000" />
+      <workItem from="1653385697981" duration="7030000" />
+      <workItem from="1653649431327" duration="4696000" />
+    </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1650282764338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650282764338</updated>
+    </task>
+    <task id="LOCAL-00002" summary="game view (attack, enemy, list hero and update screen)">
+      <created>1650929118657</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650929118657</updated>
+    </task>
+    <task id="LOCAL-00003" summary="little correction">
+      <created>1651670037376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651670037376</updated>
+    </task>
+    <task id="LOCAL-00004" summary="comments">
+      <created>1653824692654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653824692654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add" />
+    <MESSAGE value="game view (attack, enemy, list hero and update screen)" />
+    <MESSAGE value="little correction" />
+    <MESSAGE value="comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="comments" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
